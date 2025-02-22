@@ -2,7 +2,6 @@ from telebot import TeleBot
 import time
 import threading
 from datetime import datetime, timedelta
-from config import tg_tokken
 
 bot = TeleBot(tg_tokken)
 
